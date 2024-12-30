@@ -1,0 +1,56 @@
+.inputContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.stepIndicator {
+  width: 29px;
+  height: 29px;
+  border-radius: 60px;
+  background: #353535;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputWrapper {
+  flex: 1;
+  min-width: 240px;
+  max-width: 480px;
+}
+
+.label {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.14px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 22px;
+  border-radius: 10px;
+  border: 1px solid #353535;
+  background: #1a1a1a;
+  color: #858585;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #9900ff;
+}
+
+@media (max-width: 991px) {
+  .input {
+    padding: 12px 20px;
+  }
+}

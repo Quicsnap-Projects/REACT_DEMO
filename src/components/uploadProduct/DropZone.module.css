@@ -1,0 +1,135 @@
+.dropZone {
+    border-radius: 14px;
+    border: 1.5px dashed var(--353535, #353535);
+    padding: 20px;
+    text-align: center;
+    min-height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: var(--1-a-1-a-1-a, #1a1a1a);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .dropZone:hover,
+  .dropZone:focus-within {
+    border-color: var(--Linear, #90f);
+    outline: none;
+  }
+  
+  .dropZone.active {
+    border-color: var(--Linear, #90f);
+    background-color: rgba(153, 0, 255, 0.05);
+  }
+  
+  .uploadIcon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 7px;
+    pointer-events: none;
+  }
+  
+  .dropText {
+    color: var(--gray-400, #9ca3af);
+    font-size: 14px;
+    margin: 0;
+    pointer-events: none;
+  }
+  
+  .dropText strong {
+    color: var(--Linear, #90f);
+  }
+  
+  .fileLimit {
+    color: var(--gray-400, #9ca3af);
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    pointer-events: none;
+  }
+  
+  .browseButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #90f 0%, #1093ff 100%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: opacity 0.2s ease;
+  }
+  
+  .browseButton:hover {
+    opacity: 0.9;
+  }
+  
+  .browseButton:focus {
+    outline: 2px solid var(--Linear, #90f);
+    outline-offset: 2px;
+  }
+  
+  .buttonIcon {
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+  }
+  
+  .preview {
+    max-width: 100%;
+    max-height: 265px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .preview:focus {
+    outline: 2px solid var(--Linear, #90f);
+    outline-offset: 2px;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .dropZone,
+    .browseButton {
+      transition: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .dropZone {
+      min-height: 200px;
+      padding: 16px;
+    }
+  
+    .uploadIcon {
+      width: 32px;
+      height: 32px;
+      margin-bottom: 5px;
+    }
+  
+    .dropText {
+      font-size: 12px;
+    }
+  
+    .fileLimit {
+      font-size: 10px;
+    }
+  
+    .browseButton {
+      padding: 6px 12px;
+      font-size: 11px;
+    }
+  
+    .buttonIcon {
+      width: 14px;
+      height: 14px;
+    }
+  }

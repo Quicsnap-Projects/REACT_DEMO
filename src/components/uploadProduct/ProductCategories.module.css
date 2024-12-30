@@ -1,0 +1,46 @@
+.categories {
+  padding: 24px 32px;
+  border-bottom: 1px solid #353535;
+}
+
+.categoryButtons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.categoryButton {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #353535;
+  background: transparent;
+  color: #ababab;
+  font-size: 14px;
+  letter-spacing: -0.11px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.categoryButton.active {
+  background: #353535;
+  border-color: #353535;
+}
+
+.categoryExamples {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.exampleImage {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+  .categories {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,214 @@
+.accountSection {
+  background-color: rgba(16, 16, 16, 1);
+  display: flex;
+  align-items: start;
+  overflow: hidden;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.container {
+  display: flex;
+  min-width: 240px;
+  width: 985px;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.pageTitle {
+  color: #fff;
+  letter-spacing: -0.36px;
+  font: 600 52px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.divider {
+  width: 100%;
+  stroke-width: 1px;
+  stroke: var(--353535, #353535);
+  margin: 36px 0;
+  border: none;
+  height: 1px;
+  background: #353535;
+}
+
+.sectionTitle {
+  color: #fff;
+  letter-spacing: -0.22px;
+  font: 600 32px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.infoContainer {
+  display: flex;
+  margin-top: 36px;
+  width: 100%;
+  align-items: start;
+  gap: 80px;
+  font-family: Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  flex-wrap: wrap;
+}
+
+.formSection {
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  flex: 1;
+}
+
+.fieldGrid {
+  display: flex;
+  width: 100%;
+  gap: 36px;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+}
+
+.infoField {
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  margin-left: 5%;
+  flex: 1;
+}
+
+.fieldLabel {
+  color: var(--ababab, #ababab);
+  font-size: 14px;
+  letter-spacing: -0.1px;
+}
+
+.fieldValue {
+  border-radius: 10px;
+  border: 1px solid var(--353535, #353535);
+  background: var(--1-a-1-a-1-a, #1a1a1a);
+  margin-top: 9px;
+  padding: 14px 22px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: -0.11px;
+  width: 100%;
+}
+
+.passwordSection {
+  margin-top: 36px;
+}
+
+.passwordContainer {
+  display: flex;
+  margin-top: 36px;
+  width: 328px;
+  max-width: 100%;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.passwordField {
+  display: flex;
+  min-height: 75px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.passwordInputWrapper {
+  border-radius: 10px;
+  border: 1px solid var(--353535, #353535);
+  background: var(--1-a-1-a-1-a, #1a1a1a);
+  display: flex;
+  margin-top: 9px;
+  padding: 14px 22px;
+  align-items: center;
+  gap: 10px;
+}
+
+.passwordInput {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: -0.11px;
+}
+
+.togglePassword {
+  background: transparent;
+  border: none;
+  color: #ababab;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.actionButton {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #90f 0%, #1093ff 100%);
+  padding: 14px 24px;
+  color: #fff;
+  font: 600 16px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.actionButton:hover {
+  opacity: 0.9;
+}
+
+.profileImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.profileImage {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 213px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.profileImage:hover {
+  opacity: 0.8;
+}
+
+.imageInput {
+  display: none;
+}
+
+.uploadButton {
+  background: transparent;
+  border: 1px solid var(--353535, #353535);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font: 500 14px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  transition: background-color 0.2s;
+}
+
+.uploadButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 991px) {
+  .pageTitle {
+    font-size: 40px;
+  }
+
+  .fieldValue,
+  .passwordInputWrapper {
+    padding: 14px 20px;
+  }
+
+  .infoContainer {
+    gap: 40px;
+  }
+
+  .actionButton {
+    padding: 14px 20px;
+  }
+
+  .profileImage {
+    width: 160px;
+  }
+}

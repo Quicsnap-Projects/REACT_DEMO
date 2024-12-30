@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  background-color: rgba(16, 16, 16, 1);
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 411px;
+  min-width: 240px;
+  background-color: #171717;
+  border-right: 1px solid #353535;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.22px;
+  margin-bottom: 36px;
+}
+
+.uploadSection {
+  margin-top: 36px;
+  width: 100%;
+}
+
+.trainingSection {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trainingInfo h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.14px;
+  margin-bottom: 6px;
+}
+
+.trainingInfo p {
+  color: #ababab;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+}
+
+.startTrainingButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 24px;
+  background: linear-gradient(90deg, #9900ff 0%, #1093ff 100%);
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.startTrainingButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.startTrainingButton:not(:disabled):hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 1200px) {
+  .mainContent {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .mainContent {
+    padding: 20px;
+  }
+}

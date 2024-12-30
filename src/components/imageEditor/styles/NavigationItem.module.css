@@ -1,0 +1,24 @@
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+  color: var(--858585, #858585);
+  border-bottom: 1px solid var(--353535, #353535);
+}
+
+.active {
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid var(--Linear, #90f);
+}
+
+.navIcon {
+  width: 18px;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.navText {
+  font-weight: 600;
+  font-size: 16px;
+}
