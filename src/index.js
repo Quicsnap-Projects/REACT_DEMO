@@ -4,6 +4,9 @@ import './index.css';
 import AccountSettings from "./components/UserDetail/AccountSettings"
 import UploadProduct from "./components/Train/UploadProduct"
 import ImageEditor from "./components/Canvas/ImageEditor"
+import CreateModel from "./components/createModel/CreateModel"
+
+
 import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,8 +14,12 @@ root.render(
 
   // <AccountSettings/> 
   // <ImageEditor/>
+  // <UploadProduct/> 
+
+  
   <BrowserRouter>
-  <UploadProduct/> 
+  <CreateModel/>
+  
   </BrowserRouter>
 );
 

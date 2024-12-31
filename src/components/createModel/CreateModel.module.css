@@ -1,0 +1,316 @@
+.editor {
+  display: flex;
+  background-color: rgba(16, 16, 16, 1);
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 411px;
+  min-width: 240px;
+  background-color: #171717;
+  border-right: 1px solid #353535;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  border-bottom: 1px solid #353535;
+}
+
+.logo {
+  width: 166px;
+  height: auto;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navigation {
+  display: flex;
+  border-bottom: 1px solid #353535;
+}
+
+.navItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+  color: #858585;
+  cursor: pointer;
+}
+
+.navItem.active {
+  color: #fff;
+  border-bottom: 1px solid #90f;
+}
+
+.navIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.productSelector {
+  padding: 24px 32px;
+  border-bottom: 1px solid #353535;
+}
+
+.title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 12px;
+  background: #1a1a1a;
+  border: 1px solid #353535;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.selectedDisplay {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+}
+
+.productIcon {
+  width: 53px;
+  height: 53px;
+  border-radius: 5px;
+}
+
+.dropdownContent {
+  margin-top: 8px;
+  background: #1a1a1a;
+  border: 1px solid #353535;
+  border-radius: 10px;
+  padding: 12px;
+  max-height: 300px; /* Optional: limit dropdown height */
+  overflow-y: auto; /* Optional: add scrolling for long lists */
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #353535;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dropdownItem:hover {
+  background: #2a2a2a;
+}
+
+.itemIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+
+.itemLabel {
+  flex-grow: 1;
+  color: #fff;
+  font-size: 16px;
+}
+
+.itemArrow {
+  color: #fff;
+  font-size: 18px;
+}
+
+.category {
+  margin-bottom: 16px;
+}
+
+.categoryTitle {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.option {
+  padding: 6px 12px;
+  background: #242424;
+  border: 1px solid #353535;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.option.selected {
+  background: #90f;
+}
+
+.cameraAngles {
+  padding: 24px 32px;
+  border-bottom: 1px solid #353535;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.angleButton {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.angleImage {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.angleButton.selected .angleImage {
+  transform: scale(0.95);
+  border: 2px solid #90f;
+}
+
+.imageUpload {
+  padding: 24px 32px;
+  border-bottom: 1px solid #353535;
+}
+
+.dropzone {
+  border: 1.5px dashed #353535;
+  border-radius: 14px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.uploadIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.uploadText {
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.sizeLimit {
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.browseButton {
+  margin-top: 16px;
+  padding: 8px 14px;
+  background: linear-gradient(90deg, #90f 0%, #1093ff 100%);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.promptInput {
+  padding: 24px 32px;
+  border-bottom: 1px solid #353535;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 134px;
+  padding: 14px;
+  background: #1a1a1a;
+  border: 1px solid #353535;
+  border-radius: 10px;
+  color: #fff;
+  resize: vertical;
+}
+
+.footer {
+  padding: 24px 32px;
+}
+
+.createButton {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #90f 0%, #1093ff 100%);
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  background: #1a1a1a;
+  border-radius: 20px;
+  width: 100%;
+  height: 744px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instruction {
+  color: #ababab;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 261px;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .mainContent {
+    padding: 20px;
+  }
+
+  .header,
+  .productSelector,
+  .cameraAngles,
+  .imageUpload,
+  .promptInput,
+  .footer {
+    padding: 20px;
+  }
+}
