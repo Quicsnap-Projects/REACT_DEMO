@@ -1,0 +1,76 @@
+{
+  "logo": "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/fd8f9dc5902ee95330a4c16a767f784779ebee9215b4b2e932ca4cb162fffb2a?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+  "avatar": "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/2d7602f07afc30f79feb4cb94d0c3446de32c7ecf5649926b70ff20ec03906e3?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+  "icons": {
+    "train": "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/df763d268a2705bafc9ae9653578405a74a5e8f3d6c5179d208e288d2d26809d?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+    "create": "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/fcf759be54f3bf5015046e605d423eeaf388b9c64d94bf2e8f29f74d9f586c55?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+    "canvas": "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/ea1a13ab0b533dc9d1a66d64fe15d8fb1269e20f192d712817c09bf1ca0af525?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+    "upload": "https://cdn.builder.io/api/v1/image/assets/icons/upload.svg",
+    "browse": "https://cdn.builder.io/api/v1/image/assets/icons/browse.svg"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "images": [
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&"
+      ]
+    },
+    {
+      "id": 2,
+      "images": [
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&"
+      ]
+    },
+    {
+      "id": 3,
+      "images": [
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&"
+      ]
+    },
+    {
+      "id": 4,
+      "images": [
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&"
+      ]
+    },
+    {
+      "id": 5,
+      "images": [
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&"
+      ]
+    },
+    {
+      "id": 6,
+      "images": [
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&"
+      ]
+    },
+    {
+      "id": 7,
+      "images": [
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&",
+        "https://cdn.builder.io/api/v1/image/assets/0987cc05f2b54e22a01f04a1e711a223/3acec9cfed5f5becd75d6fa21567a1c3ae25d67a1f3755f4ec0ea57983ead9e2?apiKey=0987cc05f2b54e22a01f04a1e711a223&"
+      ]
+    }
+  ]
+}

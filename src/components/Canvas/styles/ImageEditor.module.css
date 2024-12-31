@@ -1,0 +1,439 @@
+.editor {
+    background-color: rgba(16, 16, 16, 1);
+    display: flex;
+    overflow: hidden;
+    justify-content: start;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    border-right: 1px solid var(--353535, #353535);
+    background-color: #171717;
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    justify-content: start;
+    width: 411px;
+  }
+  
+  .header {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--353535, #353535);
+    display: flex;
+    width: 100%;
+    gap: 40px 100px;
+    padding: 20px 32px;
+  }
+  
+  .logo {
+    aspect-ratio: 2.68;
+    object-fit: contain;
+    object-position: center;
+    width: 166px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .avatar {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 40px;
+    border-radius: 50%;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .navigation {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    color: var(--858585, #858585);
+    letter-spacing: -0.13px;
+    justify-content: start;
+    padding: 0 32px;
+    font: 600 16px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .navItem {
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--353535, #353535);
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .navItemActive {
+    composes: navItem;
+    border-bottom-color: var(--Linear, #90f);
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .navIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 18px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .aspectRatioSection {
+    border-bottom: 1px solid var(--353535, #353535);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 24px 32px;
+  }
+  
+  .sectionTitle {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.13px;
+    font-family: Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .ratioGrid {
+    display: flex;
+    margin-top: 12px;
+    width: 100%;
+    align-items: start;
+    gap: 12px;
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    justify-content: start;
+  }
+  
+  .ratioButton {
+    border-radius: 10px;
+    border: 1px solid var(--353535, #353535);
+    background: var(--353535, #353535);
+    min-height: 41px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .ratioButtonActive {
+    composes: ratioButton;
+    border: 3px solid var(--Linear, #90f);
+    font-size: 20px;
+    letter-spacing: -0.14px;
+    width: 94px;
+    height: 94px;
+  }
+  
+  .uploadSection {
+    border-bottom: 1px solid var(--353535, #353535);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 24px 32px;
+  }
+  
+  .uploadHeader {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px 100px;
+    justify-content: space-between;
+  }
+  
+  .uploadTitle {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.13px;
+  }
+  
+  .uploadOptional {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(171, 171, 171, 1);
+  }
+  
+  .dropzone {
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    border: 1.5px dashed var(--353535, #353535);
+    display: flex;
+    margin-top: 12px;
+    min-height: 165px;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dropzone:hover {
+    border-color: var(--Linear, #90f);
+  }
+  
+  .dropzoneContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--gray-400, #9ca3af);
+  }
+  
+  .uploadIcon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .uploadText {
+    font-size: 14px;
+    margin-top: 7px;
+  }
+  
+  .uploadLimit {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 7px;
+  }
+  
+  .browseButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--Linear, linear-gradient(90deg, #90f 0%, #1093ff 100%));
+    border-radius: 8px;
+    padding: 8px 14px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 16px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .browseButton:hover {
+    opacity: 0.9;
+  }
+  
+  .browseIcon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .brushSection {
+    border-bottom: 1px solid var(--353535, #353535);
+    padding: 24px 32px;
+  }
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  
+  .sliderInput {
+    flex: 1;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background: var(--353535, #353535);
+    outline: none;
+  }
+  
+  .sliderInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--Linear, linear-gradient(90deg, #90f 0%, #1093ff 100%));
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .sliderValue {
+    color: white;
+    font-size: 14px;
+    min-width: 30px;
+  }
+  
+  .promptSection {
+    border-bottom: 1px solid var(--353535, #353535);
+    padding: 24px 32px;
+  }
+  
+  .promptInput {
+    border-radius: 10px;
+    border: 1px solid var(--353535, #353535);
+    background: var(--1-a-1-a-1-a, #1a1a1a);
+    margin-top: 12px;
+    min-height: 134px;
+    width: 100%;
+    padding: 14px 22px;
+    color: var(--858585, #858585);
+    font-size: 14px;
+    resize: none;
+  }
+  
+  .retouchButton {
+    width: calc(100% - 64px);
+    padding: 14px;
+    background: var(--Linear, linear-gradient(90deg, #90f 0%, #1093ff 100%));
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    margin: 24px 32px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .retouchButton:hover {
+    opacity: 0.9;
+  }
+  
+  .mainContent {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  
+  .sectionHeader {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .selectedGroupContainer {
+    background: #1a1a1a;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .thumbnailStrip {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+  }
+  
+  .thumbnail {
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .thumbnailActive {
+    composes: thumbnail;
+    border: 2px solid var(--Linear, #90f);
+    padding: 4px;
+  }
+  
+  .thumbnailImage {
+    width: 100%;
+    aspect-ratio: 1.51;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .mainImage {
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .mainImageContent {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .imageGroupsSlider {
+    overflow-x: auto;
+    display: flex;
+    gap: 19px;
+    padding: 12px;
+    background: #1a1a1a;
+    border-radius: 20px;
+  }
+  
+  .imageGroup {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid #ababab;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 197px;
+  }
+  
+  .imageGroup:hover,
+  .imageGroupActive {
+    opacity: 1;
+    border: 2px solid var(--Linear, #90f);
+  }
+  
+  .groupImageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+  }
+  
+  .groupImage {
+    width: 100%;
+    aspect-ratio: 1.37;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  @media (max-width: 991px) {
+    .header,
+    .navigation,
+    .aspectRatioSection,
+    .uploadSection,
+    .brushSection,
+    .promptSection {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .ratioGrid {
+      flex-wrap: wrap;
+    }
+  
+    .mainContent {
+      padding: 20px;
+    }
+  
+    .selectedGroupContainer {
+      padding: 20px;
+      flex-direction: column;
+    }
+  
+    .thumbnailStrip {
+      width: 100%;
+      flex-direction: row;
+      overflow-x: auto;
+    }
+  }
+  
